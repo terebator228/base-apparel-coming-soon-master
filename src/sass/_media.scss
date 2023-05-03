@@ -1,0 +1,99 @@
+@media (max-width: 1300px) {
+    .apparel {
+        &__wrap {
+            margin-left: 70px;
+            margin-right: 20px;
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+    .apparel {
+        max-width: 610px;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        &__wrap {
+            width: 100%;
+            margin: 0;
+        }
+        &__logo {
+            margin-top: 30px;
+            margin-left: 30px;
+        }
+        &__woman-mobile {
+            display: block;
+            margin-top: 30px;
+        }
+        &__big-text {
+            max-width: 450px;
+            width: 100%;
+            margin-top: 60px;
+            margin-inline: auto;
+            text-align: center;
+        }
+        &__small-text {
+            max-width: 450px;
+            width: 100%;
+            text-align: center;
+            margin-inline: auto;
+        }
+        &__input-wrap {
+            max-width: 450px;
+            width: 100%;
+            margin: 0 auto;
+            margin-top: 40px;
+            margin-bottom: 90px;
+        }
+    }
+
+
+}
+
+@media (max-width: 600px) {
+    .apparel {
+        max-width: 375px;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        &__wrap {
+            width: 100%;
+            margin: 0;
+        }
+        &__logo {
+            margin-top: 30px;
+            margin-left: 30px;
+        }
+        &__woman-mobile {
+            height: 250px;
+            display: block;
+            margin-top: 30px;
+            background: url('../img/hero-mobile.jpg');
+        }
+        &__big-text {
+            max-width: 450px;
+            width: 100%;
+            margin-top: 60px;
+            margin-inline: auto;
+            font-size: 40px;
+            letter-spacing: 12px;
+            text-align: center;
+            span {
+                font-size: 40px;
+            }
+        }
+        &__small-text {
+            max-width: 310px;
+            width: 100%;
+            text-align: center;
+            margin-inline: auto;
+        }
+        &__input-wrap {
+            max-width: 310px;
+            width: 100%;
+            margin: 0 auto;
+            margin-top: 40px;
+            margin-bottom: 50px;
+        }
+    }
+}
